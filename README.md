@@ -24,7 +24,7 @@ Clone the repository
 
 Ensure SQL Server Express is installed and running
 
-Update your appsettings.json with a this connection string:
+Update your appsettings.json with this connection string below:
 
 **Connection String:**
 
