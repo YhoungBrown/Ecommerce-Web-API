@@ -138,7 +138,7 @@ Future-proofing: OrderItems model allows easy extension (discounts, tax, shippin
 
 **Summary**
 
-This project demonstrates my skills and experience in building robust, scalable and clean REST API design, database seeding, proper use of ProblemDetails for errors, basic transactional order creation, extendable order/payment model.
+This project demonstrates my skills and experience in building robust, scalable and clean REST API design, database seeding, proper use of ProblemDetails for errors, basic transactional order creation, and extendable order/payment model.
 
 ---
 Developed by Omotola Odumosu as part of StackBuld Technical Assessment.
