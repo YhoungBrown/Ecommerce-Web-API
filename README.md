@@ -32,7 +32,7 @@ Update your appsettings.json with this connection string below:
 
 Run the project with:
 
-dotnet run --launch-profile https (to make .Net 8 run the program using the http profiles defined in the launchsetting.json)
+dotnet run --launch-profile https (to make .Net 8 run the program using the https profiles defined in the launchsetting.json)
 
 
 Server runs at:
