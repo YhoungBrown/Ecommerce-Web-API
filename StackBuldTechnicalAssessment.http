@@ -1,0 +1,6 @@
+@StackBuldTechnicalAssessment_HostAddress = http://localhost:5185
+
+GET {{StackBuldTechnicalAssessment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

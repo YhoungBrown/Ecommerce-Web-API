@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackBuldTechnicalAssessment", "StackBuldTechnicalAssessment.csproj", "{27EAA6FE-037D-4175-BE79-0E9D70570E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		CreateOrderItemRequestDto.cs = CreateOrderItemRequestDto.cs
+		CreateOrderParameterDto.cs = CreateOrderParameterDto.cs
+		Order.cs = Order.cs
+		OrderItem.cs = OrderItem.cs
+		OrderStatus.cs = OrderStatus.cs
+		Product.cs = Product.cs
+		ProductDto.cs = ProductDto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{3E4E1094-A7C9-4A1F-96C7-F70CC8B50D8D}"
+	ProjectSection(SolutionItems) = preProject
+		ProblemDetailMiddleware.cs = ProblemDetailMiddleware.cs
+		ProblemDetailMiddlewareExtension.cs = ProblemDetailMiddlewareExtension.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D34AF8B0-E74B-40E3-B2F0-D415530E3EFE}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{6FEFEC38-54BA-477D-912C-EA7B48A0647E}"
+	ProjectSection(SolutionItems) = preProject
+		OutOfStockException.cs = OutOfStockException.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeedData", "SeedData", "{BBE64B73-421C-4EF9-9815-77B754A07F1E}"
+	ProjectSection(SolutionItems) = preProject
+		SeedData.cs = SeedData.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27EAA6FE-037D-4175-BE79-0E9D70570E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EAA6FE-037D-4175-BE79-0E9D70570E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EAA6FE-037D-4175-BE79-0E9D70570E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EAA6FE-037D-4175-BE79-0E9D70570E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A176ED6-E451-4B4F-B861-E6D7EC50D9FC}
+	EndGlobalSection
+EndGlobal
