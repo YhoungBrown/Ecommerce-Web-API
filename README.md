@@ -46,7 +46,7 @@ On application startup, the database is automatically seeded with:
 
 ⦁	OrderStatus reference data 
 
-ORDER STATUS
+ORDER STATUS:
 1 = Pending
 2 = OrderPlaced
 3 = Successful (when the order is successfully delivered to customer)
