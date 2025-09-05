@@ -6,7 +6,7 @@ It implements basic product and order management with proper error handling, val
 
 **Technologies Used:**
 
-⦁	Microsoft SQL Server (SQLClient, SQL Express). when creating a new database
+⦁	Microsoft SQL Server (SQL Express). when creating a new database
 
 ⦁	Entity Framework Core:
 
